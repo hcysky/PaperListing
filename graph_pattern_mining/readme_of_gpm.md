@@ -100,6 +100,7 @@ Evaluation on a 28-core CPU demonstrates that Pangolin outperforms existing GPM 
 - [ ] paper: [Pangolin: An Efficient and Flexible Graph Pattern Mining System on CPU and GPU (acm.org)](https://dl.acm.org/doi/pdf/10.14778/3389133.3389137)
 - [ ] slides: https://chenxuhao.github.io/docs/vldb-2020.pptx
 - [ ] code: [Galois/lonestar/mining at master · IntelligentSoftwareSystems/Galois (github.com)](https://github.com/IntelligentSoftwareSystems/Galois/tree/master/lonestar/mining)
+- [ ] News: [Pangolin: An Efficient and Flexible Graph Pattern Mining System (utexas.edu)](https://cns.utexas.edu/news/pangolin-an-efficient-and-flexible-graph-mining-system-on-cpu-and-gpu) 
 
 
 
