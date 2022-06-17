@@ -34,4 +34,18 @@ In this paper, we present Arabesque, the first distributed data processing platf
 - [ ] [Code (github.com)](https://github.com/qcri/Arabesque) 
 
 
+# Tesseract: Distributed, General Graph Pattern Mining on Evolving Graphs
+
+EuroSys'21
+
+**Abstract**
+Tesseract is the first distributed system for executing general graph mining algorithms on evolving graphs. Tesseract scales out by decomposing a stream of graph updates into per-update mining tasks and dynamically assigning these tasks to a set of distributed workers. We present a novel approach to change detection that efficiently determines the exact modifications to the algorithm’s output for each update to the input graph. We use a disaggregated, multiversioned graph store to allow workers to process updates independently, without producing duplicates. Moreover, Tesseract provides interactive mining insights for complex applications using an incremental aggregation API. Finally, we implement and evaluate Tesseract and demonstrate that it achieves orders-of-magnitude improvements over state-of-the-art systems.
+
+- [ ] paper: [Tesseract: Distributed, General Graph Pattern Mining on Evolving Graphs (binds.ch)](https://binds.ch/wp-content/uploads/2021/04/tesseract2021.pdf)
+- [ ] slides: [tesseract2021_slides.pdf (binds.ch)](https://binds.ch/wp-content/uploads/2021/05/tesseract2021_slides.pdf); [Tesseract: Distributed, General Graph Pattern Mining on Evolving Graphs - Authors: : Laurent Bindschaedler, Jasmina Malicevic, et al (mit.edu)](https://people.csail.mit.edu/jshun/6827-s22/lectures/lecture17-1.pdf)  
+- [ ] video: [[EuroSys'21\] Tesseract: Distributed, General Graph Pattern Mining on Evolving Graphs (Long) - YouTube](https://www.youtube.com/watch?v=C8XdmSTvXHM); [[EuroSys'21\] Tesseract: Distributed, General Graph Pattern Mining on Evolving Graphs (Short) - YouTube](https://www.youtube.com/watch?v=1_N0NHe1fTI)
+
+
+
+
 
