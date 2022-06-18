@@ -105,4 +105,17 @@ Evaluation on a 28-core CPU demonstrates that Pangolin outperforms existing GPM 
 - [ ] News: [Pangolin: An Efficient and Flexible Graph Pattern Mining System (utexas.edu)](https://cns.utexas.edu/news/pangolin-an-efficient-and-flexible-graph-mining-system-on-cpu-and-gpu) 
 
 
+# Fractal: A General-Purpose Graph Patern Mining System
+
+SIGMOD'19
+
+**Abstract**
+In this paper we propose Fractal, a high performance and high productivity system for supporting distributed graph pattern mining (GPM) applications. Fractal employs a dynamic (auto-tuned) load-balancing based on a hierarchical and locality-aware work stealing mechanism, allowing the system to adapt to diferent workload characteristics. Additionally, Fractal enumerates subgraphs by combining a depth-irst strategy with a from scratch processing paradigm to avoid storing large amounts of intermediate state and, thus, improves memory eiciency. Regarding programmer productivity, Fractal presents an intuitive, expressive and modular API, allowing for rapid compositional expression of many GPM algorithms. Fractal-based implementations outperform both existing systemic solutions and specialized distributed solutions on many problems - from frequent graph mining to subgraph querying, over a range of datasets.
+
+**Key Words**
+graph pattern mining; distributed systems
+
+- [ ] paper: [Fractal: A General-Purpose Graph Pattern Mining System (viniciusvdias.github.io)](https://viniciusvdias.github.io/publication/dias-2019-fractal/dias-2019-fractal.pdf)
+- [ ] code: [dccspeed/fractal (github.com)](https://github.com/dccspeed/fractal)
+
 
