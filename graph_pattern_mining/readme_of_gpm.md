@@ -106,6 +106,21 @@ Evaluation on a 28-core CPU demonstrates that Pangolin outperforms existing GPM 
 - [ ] News: [Pangolin: An Efficient and Flexible Graph Pattern Mining System (utexas.edu)](https://cns.utexas.edu/news/pangolin-an-efficient-and-flexible-graph-mining-system-on-cpu-and-gpu) 
 
 
+# Sandslash: A Two-Level Framework for Efficient Graph Pattern Mining
+
+
+ICS'21
+
+**Abstract**
+Graph pattern mining (GPM) is a key building block in diverse applications, including bioinformatics, chemical engineering, social network analysis, recommender systems and security. Existing GPM frameworks either provide high-level interfaces for productivity at the cost of expressiveness or provide expressive low-level interfaces at the cost of increased programming complexity. They also lack the flexibility to explore combinations of optimizations to achieve performance competitive with hand-optimized applications.
+
+We present Sandslash, an in-memory graph pattern mining framework that uses a novel programming interface to support productive, expressive, and efficient GPM on large graphs. Sandslash provides a high-level API that only needs a specification of the GPM problem from the user, and the system implements fast subgraph enumeration, provides efficient data structures, and applies high-level optimizations automatically. To achieve performance competitive with expert-optimized implementations, Sandslash also provides a low-level API that allows users to express algorithm-specific optimizations. This enables Sandslash to support both high-productivity and high-efficiency without losing expressiveness. We evaluate Sandslash using five GPM applications and a wide range of real-world graphs. Experimental results demonstrate that applications written using Sandslash’s high-level or low-level API outperform those in state-of-the-art GPM systems Au- toMine, Pangolin, and Peregrine on average by 13.8×, 7.9×, and 5.4×, respectively. We also show that these Sandslash applications outperform expert-optimized GPM implementations by 2.3× on average with less programming effort.
+
+- [ ] paper: [Sandslash: A Two-Level Framework for Efficient Graph Pattern Mining (mit.edu)](http://people.csail.mit.edu/xchen/docs/ics-2021.pdf); [Sandslash | Proceedings of the ACM International Conference on Supercomputing](https://dl.acm.org/doi/10.1145/3447818.3460359)
+- [ ] code: [Galois/lonestar/mining at master · IntelligentSoftwareSystems/Galois (github.com)](https://github.com/IntelligentSoftwareSystems/Galois/tree/master/lonestar/mining)
+
+
+
 # Fractal: A General-Purpose Graph Pattern Mining System
 
 SIGMOD'19
