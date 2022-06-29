@@ -106,7 +106,7 @@ Evaluation on a 28-core CPU demonstrates that Pangolin outperforms existing GPM 
 - [ ] News: [Pangolin: An Efficient and Flexible Graph Pattern Mining System (utexas.edu)](https://cns.utexas.edu/news/pangolin-an-efficient-and-flexible-graph-mining-system-on-cpu-and-gpu) 
 
 
-# Fractal: A General-Purpose Graph Patern Mining System
+# Fractal: A General-Purpose Graph Pattern Mining System
 
 SIGMOD'19
 
