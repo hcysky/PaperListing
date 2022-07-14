@@ -8,4 +8,4 @@ The concept of one event happening before another in a distributed system is exa
 distributed systems, computer networks, clock synchronization, multiprocess systems
 
 
-- [ ] related information: [The most important paper in the distributed field written by Turing Prize winner Lamport?]( https://mp.weixin.qq.com/s/KL95AGKddJRV30pRVJGWjg)
+- [ ] related information: [The most important paper in the distributed field written by Turing Prize winner Lamport]( https://mp.weixin.qq.com/s/KL95AGKddJRV30pRVJGWjg)
