@@ -134,4 +134,19 @@ graph pattern mining; distributed systems
 - [ ] paper: [Fractal: A General-Purpose Graph Pattern Mining System (viniciusvdias.github.io)](https://viniciusvdias.github.io/publication/dias-2019-fractal/dias-2019-fractal.pdf)
 - [ ] code: [dccspeed/fractal (github.com)](https://github.com/dccspeed/fractal)
 
+# RStream: Marrying Relational Algebra with Streaming for Efficient Graph Mining on A Single Machine
+
+OSDI'18
+
+**Abstract**
+Graph mining is an important category of graph algorithms that aim to discover structural patterns such as cliques and motifs in a graph. While a great deal of work has been done recently on graph computation such as PageRank, systems support for scalable graph mining is
+still limited. Existing mining systems such as Arabesque focus on distributed computing and need large amounts of compute and memory resources.
+
+We built RStream, the first single-machine, out-of-core mining system that leverages disk support to store intermediate data. At its core are two innovations: (1) a rich programming model that exposes relational algebra for developers to express a wide variety of mining tasks; and (2) a runtime engine that implements relational algebra efficiently with tuple streaming. A comparison between RStream and four state-of-the-art distributed mining/Datalog systems — Arabesque, ScaleMine, DistGraph, and BigDatalog — demonstrates that RStream outperforms
+all of them, running on a 10-node cluster, e.g., by at least a factor of 1.7×, and can process large graphs on an inexpensive machine.
+
+
+
+- [ ] paper: [osdi18-wang.pdf (usenix.org)](https://www.usenix.org/system/files/osdi18-wang.pdf)
+- [ ] code: [rstream-system/RStream (github.com)](https://github.com/rstream-system/RStream)
 
