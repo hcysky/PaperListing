@@ -142,19 +142,19 @@ OSDI'18
 Graph mining is an important category of graph algorithms that aim to discover structural patterns such as cliques and motifs in a graph. While a great deal of work has been done recently on graph computation such as PageRank, systems support for scalable graph mining is
 still limited. Existing mining systems such as Arabesque focus on distributed computing and need large amounts of compute and memory resources.
 
-We built RStream, the first single-machine, out-of-core mining system that leverages disk support to store intermediate data. At its core are two innovations: (1) a rich programming model that exposes relational algebra for developers to express a wide variety of mining tasks; and (2) a runtime engine that implements relational algebra efficiently with tuple streaming. A comparison between RStream and four state-of-the-art distributed mining/Datalog systems — Arabesque, ScaleMine, DistGraph, and BigDatalog — demonstrates that RStream outperforms
-all of them, running on a 10-node cluster, e.g., by at least a factor of 1.7×, and can process large graphs on an inexpensive machine.
+We built RStream, the first single-machine, out-of-core mining system that leverages disk support to store intermediate data. At its core are two innovations: (1) a rich programming model that exposes relational algebra for developers to express a wide variety of mining tasks; and (2) a runtime engine that implements relational algebra efficiently with tuple streaming. A comparison between RStream and four state-of-the-art distributed mining/Datalog systems — Arabesque, ScaleMine, DistGraph, and BigDatalog — demonstrates that RStream outperforms
+all of them, running on a 10-node cluster, e.g., by at least a factor of 1.7×, and can process large graphs on an inexpensive machine.
 
 - [ ] paper: [osdi18-wang.pdf (usenix.org)](https://www.usenix.org/system/files/osdi18-wang.pdf)
 - [ ] code: [rstream-system/RStream (github.com)](https://github.com/rstream-system/RStream)
 
-# GMiner: 
+# GMiner: An Efficient Task-Oriented Graph Mining System
 
 EuroSys'18
 
 **Abstract**
 
-Graph mining is one of the most important areas in data mining. However, scalable solutions for graph mining are still lacking as existing studies focus on sequential algorithms. While many distributed graph processing systems have been proposed in recent years, most of them were designed to parallelize computations such as PageRank and Breadth-First Search that keep states on individual vertices and propagate updates along edges. Graph mining, on the other hand, may generate many subgraphs whose number can far exceed the number of vertices. This inevitably leads to much higher computational and space complexity rendering existing graph systems inefficient. We propose G-Miner, a distributed system with a new architecture designed for general graph mining. G-Miner adopts a unified programming framework for implementing a wide range of graph mining algorithms. We model subgraph processing
+Graph mining is one of the most important areas in data mining. However, scalable solutions for graph mining are still lacking as existing studies focus on sequential algorithms. While many distributed graph processing systems have been proposed in recent years, most of them were designed to parallelize computations such as PageRank and Breadth-First Search that keep states on individual vertices and propagate updates along edges. Graph mining, on the other hand, may generate many subgraphs whose number can far exceed the number of vertices. This inevitably leads to much higher computational and space complexity rendering existing graph systems inefficient. We propose G-Miner, a distributed system with a new architecture designed for general graph mining. G-Miner adopts a unified programming framework for implementing a wide range of graph mining algorithms. We model subgraph processing
 as independent tasks, and design a novel task pipeline to streamline task processing for better CPU, network and I/O utilization. Our extensive experiments validate the efficiency of G-Miner for a range of graph mining tasks.
 
 **Key Words**
@@ -170,7 +170,7 @@ Distributed System, Large-Scale Graph Mining
 SIGMOD'19  DEMO
 
 **Abstract**
-This Demo presents G-Miner, a distributed system for graph mining. The take-aways for Demo attendees are: (1) a good understanding of the challenges of various graph mining workloads; (2) useful insights on how to design a good system for graph mining by comparing G-Miner with existing systems on performance, expressiveness and user-friendliness; and (3) how to use G-Miner for interactive graph analytics.
+This Demo presents G-Miner, a distributed system for graph mining. The take-aways for Demo attendees are: (1) a good understanding of the challenges of various graph mining workloads; (2) useful insights on how to design a good system for graph mining by comparing G-Miner with existing systems on performance, expressiveness and user-friendliness; and (3) how to use G-Miner for interactive graph analytics.
 
 - [ ] paper: [Large Scale Graph Mining with G-Miner (acm.org)](https://dl.acm.org/doi/pdf/10.1145/3299869.3320219)
 - [ ] code: [yaobaiwei/GMiner: An efficient large-scale graph mining framework. (github.com)](https://github.com/yaobaiwei/GMiner)
