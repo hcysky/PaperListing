@@ -170,8 +170,29 @@ Distributed System, Large-Scale Graph Mining
 SIGMOD'19  DEMO
 
 **Abstract**
-
 This Demo presents G-Miner, a distributed system for graph mining. The take-aways for Demo attendees are: (1) a good understanding of the challenges of various graph mining workloads; (2) useful insights on how to design a good system for graph mining by comparing G-Miner with existing systems on performance, expressiveness and user-friendliness; and (3) how to use G-Miner for interactive graph analytics.
 
 - [ ] paper: [Large Scale Graph Mining with G-Miner (acm.org)](https://dl.acm.org/doi/pdf/10.1145/3299869.3320219)
 - [ ] code: [yaobaiwei/GMiner: An efficient large-scale graph mining framework. (github.com)](https://github.com/yaobaiwei/GMiner)
+
+
+# AutoMine: Harmonizing High-level Abstraction and High Performance for Graph Mining
+
+SOSP'19
+
+**Abstract**
+Graph mining algorithms that aim at identifying structural patterns of graphs are typically more complex than graph computation algorithms such as breadth first search. Researchers have implemented several systems with high-level and flexible interfaces customized for tackling graph mining problems. However, we find that for triangle counting, one of the simplest graph mining problems, such systems can be several times slower than a single-threaded implementation of a straightforward algorithm.
+
+In this paper, we reveal the root causes of the severe inefficiencies of state-of-the-art graph mining systems and the challenges to address the performance problems. We build AutoMine, a single-machine system to provide both high-level interfaces and high performance for large-scale graph mining applications. The novelty of AutoMine comes from 1) a new representation of subgraph patterns and 2) compilation techniques that automatically generate efficient mining code with minimized memory consumption from a high-level abstraction. We have extensively evaluated AutoMine against 3 graph mining systems on 8 real-world graphs of different scales. Our experimental results show that AutoMine often produces several orders of magnitude better performance and can process very large graphs existing systems cannot handle.
+
+- [ ] paper: [AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining (acm.org)](https://dl.acm.org/doi/pdf/10.1145/3341301.3359633)
+- [ ] slide: [AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining (mit.edu)](https://people.csail.mit.edu/jshun/6886-s20/lectures/lecture15-2.pdf)
+- [ ] video: [AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining - YouTube](https://www.youtube.com/watch?v=1q1YNUFSo9s)
+
+
+
+
+
+
+
+
