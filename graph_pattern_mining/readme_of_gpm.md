@@ -189,8 +189,21 @@ In this paper, we reveal the root causes of the severe inefficiencies of state-o
 - [ ] slide: [AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining (mit.edu)](https://people.csail.mit.edu/jshun/6886-s20/lectures/lecture15-2.pdf)
 - [ ] video: [AutoMine: Harmonizing High-Level Abstraction and High Performance for Graph Mining - YouTube](https://www.youtube.com/watch?v=1q1YNUFSo9s)
 
+# GraphPi: High Performance Graph Pattern Matching through Effective Redundancy Elimination
 
+SC'20
 
+**Abstract**
+Graph pattern matching, which aims to discover structural patterns in graphs, is considered one of the most fundamental graph mining problems in many real applications. Despite previous efforts, existing systems face two main challenges. First, inherent symmetry existing in patterns can introduce a large amount of redundant computation. Second, different matching orders for a pattern have significant performance differences and are quite hard to predict. When these factors are mixed, this problem becomes extremely complicated. High efficient pattern matching remains an open problem currently. 
+
+To address these challenges, we propose GraphPi, a high performance distributed pattern matching system. GraphPi utilizes a new algorithm based on 2-cycles in group theory to generate multiple sets of asymmetric restrictions, where each set can eliminate redundant computation completely. We further design an accurate performance model to determine the optimal matching order and asymmetric restriction set for efficient pattern matching. We evaluate GraphPi on Tianhe-2A supercomputer. Results show that GraphPi outperforms the state-ofthe-art system, by up to 105× for 6 real-world graph datasets on a single node. We also scale GraphPi to 1,024 computing nodes (24,576 cores).
+
+**Key Words**
+Graph mining, pattern matching, automorphisms elimination
+
+- [ ] paper: [GraphPi.pdf (acm.org)](https://dl.acm.org/doi/pdf/10.5555/3433701.3433834)
+- [ ] slide: [清华翟季冬-GraphPi-High-Performance-Graph-Pattern-Matching](https://www.ccita.net/wp-content/uploads/dlm_uploads/2021/01/4.2.1-清华翟季冬-GraphPi-High-Performance-Graph-Pattern-Matching.pdf)
+- [ ] code: [thu-pacman/GraphPi (github.com)](https://github.com/thu-pacman/GraphPi)
 
 
 
