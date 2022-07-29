@@ -23,5 +23,7 @@ streaming graph processing, purely-functional data structures, parallel graph al
 
 # Ligra: A Lightweight Graph Processing Framework for Shared Memory
 
+
+- [ ] paper: [ligra.pdf (mit.edu)](https://people.csail.mit.edu/jshun/ligra.pdf)
 - [ ] code: [jshun/ligra: Ligra: A Lightweight Graph Processing Framework for Shared Memory (github.com)](https://github.com/jshun/ligra)
 
