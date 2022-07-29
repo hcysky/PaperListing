@@ -29,4 +29,6 @@ streaming graph processing, purely-functional data structures, parallel graph al
 
 # Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs
 
+- [ ] paper: [Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs (mit.edu)](https://people.csail.mit.edu/hjxu/papers/terrace.pdf)
 - [ ] code: [terrace github](https://github.com/PASSIONLab/terrace)
+- [ ] video: [Terrace: A Hierarchical Graph Container for Skewed Dynamic Graphs - YouTube](https://www.youtube.com/watch?v=O_affhnP_5Q&list=PL3xUNnH4TdbsfndCMn02BqAAgGB0z7cwq)
