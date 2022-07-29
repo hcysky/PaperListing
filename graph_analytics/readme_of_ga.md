@@ -21,5 +21,7 @@ streaming graph processing, purely-functional data structures, parallel graph al
 - [ ] author main page: [Julian Shun (mit.edu)](https://people.csail.mit.edu/jshun/index.shtml)
 
 
+# Ligra: A Lightweight Graph Processing Framework for Shared Memory
 
+- [ ] code: [jshun/ligra: Ligra: A Lightweight Graph Processing Framework for Shared Memory (github.com)](https://github.com/jshun/ligra)
 
